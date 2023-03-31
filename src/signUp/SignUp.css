@@ -1,0 +1,80 @@
+.signUpBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 10px 30px;
+    gap: 22px;
+    position: absolute;
+    width: 360px;
+    height: 556px;
+    left: 10%;
+    top: 15%;
+    background: #FFFFFF;
+    border-radius: 8px;
+}
+
+.emailDiv {
+    position: absolute;
+    left: 12.5%;
+    top: 20%;
+}
+
+.fullNameDiv {
+    position: absolute;
+    left: 12.5%;
+    top: 35%;
+}
+
+.passwordDiv {
+    position: absolute;
+    left: 12.5%;
+    top: 50%;
+}
+
+.signInfoText {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 133.4%;
+    text-align: center;
+    color: #00031A;
+    flex: none;
+    flex-grow: 0;
+}
+
+.policyText {
+    position: absolute;
+    top: 80%;
+    left: 12.5%;
+    width: 294px;
+    height: 42px;
+}
+
+.logInText {
+    position: absolute;
+    top: 90%;
+    left: 18.5%;
+    width: 244px;
+    height: 21px;
+}
+
+.singUpButton {
+    position: absolute;
+    width: 288px;
+    height: 44px;
+    top: 67%;
+    left: 12.5%;
+}
+
+.buttonDisable {
+    background: #E0E0E0;
+    border-width: 0px;
+    color: #636363;
+}
+
+.buttonEnable {
+    background: #00031A;
+    color: #FFFFFF;
+}
