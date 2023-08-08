@@ -10,8 +10,8 @@ interface InputProps {
     name: string,
     typeText: string,
     placeholderText: string,
-    onChange: (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void,
-    errors: string
+    onChange?: (event: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void,
+    errors?: string
 }
 
 const Input = ({className, labelText, name, typeText, placeholderText, onChange, errors}: InputProps) => {

@@ -1,0 +1,25 @@
+.searchDiv {
+    position: absolute;
+    left: 30%;
+    width: 45.6rem;
+    height: 4rem;
+}
+
+.searchInput {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45.6rem;
+    height: 4rem;
+    padding: .8rem 1.6rem;
+    background: var(--white, #FFF);
+    border-radius: .8rem;
+}
+
+.searchButton {
+    position: absolute;
+    top: 32.5%;
+    right: 3%;
+    width: 1.6rem;
+    height: 1.6rem;
+}

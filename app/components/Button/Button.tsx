@@ -3,7 +3,7 @@ import './Button.scss'
 interface ButtonProp {
     className: string,
     children: string,
-    disabled: boolean
+    disabled?: boolean
 }
 
 const Button = ({className, children, disabled}: ButtonProp) => {
