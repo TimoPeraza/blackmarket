@@ -1,0 +1,45 @@
+.dropdown {
+    position: absolute;
+    right: 22.5%;
+    width: 16.8rem;
+    height: 3.9rem;
+}
+
+.dropdownButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    width: 16.8rem;
+    height: 3.9rem;
+    padding: .9rem;
+    background: var(--background-a, #00031A);
+    border: .05rem solid #FFF;
+    border-radius: .8rem;
+    color: white;
+    text-align: center;
+}
+
+.accountText {
+    position: absolute;
+    left: 15%;
+    font-size: 1.4rem;
+}
+
+.dropdownContent {
+    margin-top: .1rem;
+    background: white;
+    border: .05rem solid #000;
+    border-radius: .8rem;
+}
+
+.dropdownItem {
+    border: .05rem solid #000;
+}
+
+.dropdownItemButton {
+    position: relative;
+    left: 12.5%;
+    padding: .3rem;
+    font-size: 1.4rem;
+}
