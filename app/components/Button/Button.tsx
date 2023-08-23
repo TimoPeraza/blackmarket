@@ -1,15 +1,26 @@
+'use client'
+
 import './Button.scss'
 
 interface ButtonProp {
     className: string,
-    children: string,
-    disabled?: boolean
+    children: string | JSX.Element,
+    disabled?: boolean,
+    logo?: string,
+    logoClassName?: string,
+    onClick?: () => void
 }
 
-const Button = ({className, children, disabled}: ButtonProp) => {
+var classNames = require('classnames');
+
+const Button = ({className, children, disabled, logo, logoClassName, onClick}: ButtonProp) => {
+    var buttonClass = classNames('buttonBox', className)
     return(
-        <button className={`buttonBox ${className}`} disabled={disabled}>
-            {children}
+        <button className={buttonClass} onClick={onClick} disabled={disabled}>
+            {children} 
+            {logo &&
+                <img src={logo} className={`${logoClassName}`}></img>
+            }
         </button>
     )
 }

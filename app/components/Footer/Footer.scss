@@ -1,0 +1,116 @@
+@import '../../variables.scss';
+
+.footerBanner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4.5rem;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 36.3rem;
+    padding: 3.6rem 11.8rem 6.0rem 11.8rem;
+    background: var(--dark-violet, #00031A);
+}
+
+.footerLogoLinks {
+    position: absolute;
+    top: 70%;
+    left: 8.7%;
+    width: 68.4rem;
+    height: 3.4rem;
+}
+
+.footerLinks {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    width: 14rem;
+    height: 2.2rem;
+}
+
+.socialMediaLink {
+    position: absolute;
+    width: 2.2rem;
+    height: 2.2rem;
+}
+
+.instagramLink {
+    left: 0;
+}
+
+.facebookLink {
+    left: 25%;
+}
+
+.twitterLink {
+    left: 50%;
+}
+
+.linkedinLink {
+    left: 75%;
+}
+
+.subscribeContent {
+    position: absolute;
+    right: 8.7%;
+    width: 32.8rem;
+    height: 26.5rem;
+}
+
+.subscribeTitle {
+    width: 32.8rem;
+    height: 6.4rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--white, #FFF);
+}
+
+.subscribeForm {
+    position: absolute;
+    top: 30%;
+    width: 32.8rem;
+    height: 12.8rem;
+}
+
+.subscribeButton {
+    @extend .subscribeBox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0%;
+    background: var(--dark-violet, #00031A);
+    border: .1rem solid var(--white, #FFF);
+    border-radius: .8rem;
+    color: white;
+}
+
+.subscribeInput {
+    @extend .subscribeBox;
+    display: flex;
+    align-items: flex-start;
+    flex-shrink: 0;
+    padding: 1.2rem;
+    background: var(--white, #FFF);
+    border: .1rem solid var(--background-a, #00031A);
+    border-radius: .8rem;
+}
+
+.subscribeLabel {
+    flex-shrink: 0;
+    width: 6.2rem;
+    height: 1.9rem;
+    font-size: 1.6rem;
+    line-height: normal;
+    color: var(--white, #FFF);
+}
+
+.subscribeText {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    font-size: 1.4rem;
+    color: var(--white, #FFF);
+}
